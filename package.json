@@ -1,0 +1,39 @@
+{
+  "name": "eternalpastry",
+  "version": "0.1.0",
+  "description": "A cooking and baking website built with Eleventy",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admturner/eternalpastry"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 11",
+    "last 1 Android versions",
+    "last 1 ChromeAndroid versions",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions",
+    "last 2 Edge versions"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1",
+    "he": "^1.2.0",
+    "luxon": "^1.11.1",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-attrs": "^2.3.2",
+    "markdown-it-footnote": "^3.0.1",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "eleventy": "eleventy",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run eleventy",
+    "watch": "npm run build && npx eleventy --watch",
+    "start": "npm run build && npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  }
+}
