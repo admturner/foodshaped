@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+---
+<article id="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h1 itemprop="headline">{{ title | markdown | safe }}</h1>
+		<p class="meta">
+			<time datetime="{{ date | htmlDate }}" itemprop="datePublished">{{ date | readableDate }}</time>
+			<span class="authors">
+				{% if avatars %}
+					<img src="/_images/avatars/{{ avatar }}.jpg" srcset="/_images/avatars/{{ avatar }}@2x.jpg 2x" alt="" width="48" height="48" lazyload="on">
+				{% endif %}
+				By {{ author | markdown | safe }}
+			</span>
+		</p>
+	</header>
+	<div class="article-content" itemprop="articleBody">
+		{{ content | safe }}
+	</div>
+	<footer>
+		{% if tags %}
+			<dl class="meta tags">
+				<dt>Tagged</dt>
+				{% for tag in tags %}
+					<dd><a href="/blogs/tags/{{ tag | slug }}">{{ tag }}</a></dd>
+				{% endfor %}
+			</dl>
+		{% endif %}
+	</footer>
+</article>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="{{ site.charset }}">
+		<title>
+			{%- if '/' === page.url -%}
+				{{ site.title | markdown }}
+			{%- else -%}
+				{{ title | markdown | decodeHtmlEntities }} - {{ site.title | markdown }}
+			{%- endif -%}
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/_css/main.css">
+		<meta name="theme-color" content="#212D40">
+		<link rel="alternate" href="{{ site.feed.path | url }}" type="application/atom.xml" title="{{ site.title }} feed">
+		<script>document.documentElement.className+=' js'</script>
+		{% if description -%}
+			<meta name="description" content="{{ description }}">
+		{%- endif %}
+	</head>
+	<body>
+		<header id="site-header">
+			{%- if '/' === page.url -%}
+				<h1 class="site-title"><a href="/">{{ site.title | markdown }}</a></h1>
+			{% else -%}
+				<p class="site-title"><a href="/">{{ site.title | markdown }}</a></p>
+			{%- endif %}
+			{% if site.tagline -%}
+				{# @todo This random works, but only on generate, not page refresh. #}
+				<p class="site-tagline">{{- site.tagline | random | markdown -}}</p>
+			{%- endif %}
+			<nav id="site-navigation">
+			</nav>
+		</header>
+		<main id="site-main">
+			{{ content | safe }}
+		</main>
+		<footer id="site-footer">
+			<p class="copyright">Copyright &copy; 2019 {{ site.author }}</p>
+		</footer>
+		<script type="module" src="/_js/main.mjs"></script>
+		<script nomodule src="/_js/legacy.js"></script>
+	</body>
+</html>
