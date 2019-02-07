@@ -1,0 +1,20 @@
+{
+  "title": "Eternal Pastry",
+  "url": "/",
+  "author": {
+    "name": "Adam Turner"
+  },
+  "tagline": [
+    "What even is pastry, really?",
+    "Regular human food.",
+    "Use mouth with food."
+  ],
+  "feed": {
+    "subtitle": "The Eternal Pastry food place",
+    "filename": "blog.atom",
+    "path": "/blog.atom",
+    "url": "",
+    "id": "/"
+  },
+  "charset": "utf-8"
+}
