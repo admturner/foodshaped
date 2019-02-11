@@ -39,149 +39,128 @@ The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML B
 
 ## Tables
 
-| Code Updates               | Emoji                                           |
-|:---------------------------|:------------------------------------------------|
-| Update styles and UI       | :art: `:art:`                                   |
-| Introduce new features     | :sparkles: `:sparkles:`                         |
-| Improve performance        | :zap: `:zap:`                                   |
-| Perform database changes   | :card_file_box: `:card_file_box:`               |
-| Write documentation        | :memo: `:memo:`                                 |
-| Improve accessibility      | :wheelchair: `:wheelchair:`                     |
-| I18n and localization      | :globe_with_meridians: `:globe_with_meridians:` |
-| Update security            | :lock: `:lock:`                                 |
-| Change analytics           | :chart_with_upwards_trend: `:chart_with_upwards_trend:` |
-| Improve SEO                | :mag: `:mag:`                                   |
-| Update code due to external changes | :alien: `:alien:`                      |
-| Update code due to code review changes | :ok_hand: `:ok_hand:`               |
-| Refactor code              | :recycle: `:recycle:`                           |
-| Remove code or files       | :fire: `:fire:`                                 |
-| Introduce breaking changes | :boom: `:boom:`                                 |
+| Code Updates                           | Emoji                           |
+|:---------------------------------------|:--------------------------------|
+| Update styles and UI                   | 🎨 `:art:`                      |
+| Introduce new features                 | ✨ `:sparkles:`                 |
+| Improve performance                    | ⚡ `:zap:`                       |
+| Perform database changes               | 🗃️ `:card_file_box:`            |
+| Write documentation                    | 📝 `:memo:`                     |
+| Improve accessibility                  | ♿ `:wheelchair:`               |
+| I18n and localization                  | 🌐 `:globe_with_meridians:`     |
+| Update security                        | 🔒 `:lock:`                     |
+| Change analytics or tracking code      | 📈 `:chart_with_upwards_trend:` |
+| Improve SEO                            | 🔍 `:mag:`                      |
+| Update code due to external changes    | 👽 `:alien:`                    |
+| Update code due to code review changes | 👌 `:ok_hand:`                  |
+| Refactor code                          | ♻️ `:recycle:`                  |
+| Remove code or files                   | 🔥 `:fire:`                     |
+| Introduce breaking changes             | 💥 `:boom:`                     |
 
 ## Definition Lists
 
 <dl>
-<dt>Definition List Title</dt>
-<dd>Definition list division.</dd>
-<dt>Startup</dt>
-<dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
-<dt>#dowork</dt>
-<dd>Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.</dd>
-<dt>Do It Live</dt>
-<dd>I'll let Bill O'Reilly will <a title="We'll Do It Live" href="https://www.youtube.com/watch?v=O_HyZ5aW76c">explain</a> this one.</dd>
+	<dt>Definition List Title</dt>
+	<dd>Definition list division.</dd>
 </dl>
 
 ## Unordered Lists (Nested)
 
-<ul>
-<li>List item one
-<ul>
-<li>List item one
-<ul>
-<li>List item one</li>
-<li>List item two</li>
-<li>List item three</li>
-<li>List item four</li>
-</ul>
-</li>
-<li>List item two</li>
-<li>List item three</li>
-<li>List item four</li>
-</ul>
-</li>
-<li>List item two</li>
-<li>List item three</li>
-<li>List item four</li>
-</ul>
+* List item one
+    - List item one
+        + List item one
+        + List item two
+        + List item three
+        + List item four
+    - List item two
+    - List item three
+    - List item four
+* List item two
+* List item three
+* List item four
 
 ## Ordered List (Nested)
 
-<ol start="8">
-<li>List item one -start at 8
-<ol>
-<li>List item one
-<ol reversed="reversed">
-<li>List item one -reversed attribute</li>
-<li>List item two</li>
-<li>List item three</li>
-<li>List item four</li>
-</ol>
-</li>
-<li>List item two</li>
-<li>List item three</li>
-<li>List item four</li>
-</ol>
-</li>
-<li>List item two</li>
-<li>List item three</li>
-<li>List item four</li>
-</ol>
+8. List item one (start at 8)
+    1. List item one
+        4. List item one (reversed attribute)
+        3. List item two
+        2. List item three
+    	1. List item four
+    1. List item two
+    1. List item three
+    1. List item four
+1. List item two
+1. List item three
+1. List item four
 
 ## HTML Tags
 
-These supported tags come from the WordPress.com code <a title="Code" href="https://en.support.wordpress.com/code/">FAQ</a>.
+These supported tags come from the WordPress.com code <a href="https://en.support.wordpress.com/code/">FAQ</a>.
 
-<strong>Address Tag</strong>
+### Address Tag
 
 <address>1 Infinite Loop<br />Cupertino, CA 95014<br />United States</address>
-<strong>Anchor Tag (aka. Link)</strong>
 
-This is an example of a <a title="WordPress Foundation" href="https://wordpressfoundation.org/">link</a>.
+### Anchor Tag (aka. Link)
 
-<strong>Abbreviation Tag</strong>
+This is an <a href="https://wordpressfoundation.org/">example of a link</a>.
+
+### Abbreviation Tag
 
 The abbreviation <abbr title="Seriously">srsly</abbr> stands for "seriously".
 
-<strong>Acronym Tag (<em>deprecated in HTML5</em>)</strong>
-
-The acronym <acronym title="For The Win">ftw</acronym> stands for "for the win".
-
-<strong>Big Tag</strong> (<em>deprecated in HTML5</em>)
-
-These tests are a <big>big</big> deal, but this tag is no longer supported in HTML5.
-
-<strong>Cite Tag</strong>
+### Cite Tag
 
 "Code is poetry." --<cite>Automattic</cite>
 
-<strong>Code Tag</strong>
+### Code Tag
 
-This tag styles blocks of code.<br /><code>.post-title {<br />
-	margin: 0 0 5px;<br />
-	font-weight: bold;<br />
-	font-size: 38px;<br />
-	line-height: 1.2;<br />
-	and here's a line of some really, really, really, really long text, just to see how it is handled and to find out how it overflows;<br />
-}</code><br />You will learn later on in these tests that word-wrap: break-word;will be your best friend.
+This tag styles blocks of code.
 
-<strong>Delete Tag</strong>
+```
+.post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
 
-This tag will let you <del cite="deleted it">strike out text</del>, but this tag is <em>recommended</em> supported in HTML5 (use the <code>&lt;s&gt;</code> instead).
+	/* and here's a line of some really, really, really, really long text, just to see how it is handled and to find out how it overflows */
+}
+```
 
-<strong>Emphasize Tag</strong>
+You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
 
-The emphasize tag should <em>italicize</em> <i>text</i>.
+### Delete Tag
 
-<strong>Horizontal Rule Tag</strong>
+This ~~tag will let~~ you <del cite="deleted it">strike out text</del>, but this tag is <em>recommended</em> supported in HTML5 (use the `<s>` instead).
 
-<hr />
-This sentence is following a <code>&lt;hr /&gt;</code> tag.
+### Emphasize Tag
 
-<strong>Insert Tag</strong>
+The emphasize tag should *italicize* text.
+
+### Horizontal Rule Tag
+
+<hr>
+
+This sentence is following a `<hr>` tag.
+
+### Insert Tag
 
 This tag should denote <ins cite="inserted it">inserted</ins> text.
 
-<strong>Keyboard Tag</strong>
+### Keyboard Tag
 
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code>&lt;code&gt;</code> tag.
+This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
 
-<strong>Preformatted Tag</strong>
+### Preformatted Tag
 
 This tag is for preserving whitespace as typed, such as in poetry or ASCII art.
 
-## The Road Not Taken
+**The Road Not Taken**
 
-<pre><cite>Robert Frost</cite>
-
+<pre>
+  <cite>Robert Frost</cite>
 
   Two roads diverged in a yellow wood,
   And sorry I could not travel both
@@ -210,38 +189,30 @@ This tag is for preserving whitespace as typed, such as in poetry or ASCII art.
   and here's a line of some really, really, really, really long text, just to see how it is handled and to find out how it overflows;
 </pre>
 
-<strong>Quote Tag</strong> for short, inline quotes
+### Quote Tag for short, inline quotes
 
 <q>Developers, developers, developers...</q> --Steve Ballmer
 
-<strong>Strike Tag</strong> (<em>deprecated in HTML5</em>) and <strong>S Tag</strong>
+### Small Tag
 
-This tag shows <span style="text-decoration: line-through;">strike-through</span> <s>text</s>.
+This tag shows <small>smaller</small> text.
 
-<strong>Small Tag</strong>
+### Strong Tag
 
-This tag shows <small>smaller<small> text.</small></small>
+This tag shows **bold text**.
 
-<strong>Strong Tag</strong>
-
-This tag shows <strong>bold<strong> text.</strong></strong>
-
-<strong>Subscript Tag</strong>
+### Subscript Tag
 
 Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
 
-<strong>Superscript Tag</strong>
+### Superscript Tag
 
 Still sticking with science and Albert Einstein's E = MC<sup>2</sup>, which should lift the 2 up.
 
-<strong>Teletype Tag </strong>(<em>obsolete in HTML5</em>)
-
-This rarely used tag emulates <tt>teletype text</tt>, which is usually styled like the <code>&lt;code&gt;</code> tag.
-
-<strong>Underline Tag</strong> <em>deprecated in HTML 4, re-introduced in HTML5 with other semantics</em>
+### Underline Tag (*deprecated in HTML 4, re-introduced in HTML5 with other semantics*)
 
 This tag shows <u>underlined text</u>.
 
-<strong>Variable Tag</strong>
+### Variable Tag
 
 This allows you to denote <var>variables</var>.
