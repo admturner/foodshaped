@@ -20,20 +20,28 @@
   ],
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
+    "cssnano": "^4.1.8",
     "he": "^1.2.0",
     "luxon": "^1.11.1",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-attrs": "^2.3.2",
     "markdown-it-footnote": "^3.0.1",
-    "rimraf": "^2.6.3"
+    "postcss-cli": "^6.1.1",
+    "postcss-preset-env": "^6.5.0",
+    "rimraf": "^2.6.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0"
   },
   "scripts": {
+    "lint:css": "stylelint \"src/_css/**/*.css\"",
     "eleventy": "eleventy",
     "clean": "rimraf dist",
-    "build": "npm run clean && npm run eleventy",
+    "style": "postcss src/_css/main.css --output dist/_css/main.css",
+    "build": "npm run clean && npm run test && npm run style && npm run eleventy",
     "watch": "npm run build && npx eleventy --watch",
     "start": "npm run build && npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "test": "npm run lint:css"
   }
 }
