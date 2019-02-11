@@ -1,0 +1,87 @@
+:root {
+	--primary-color: #1b2535;
+	--primary-ligher: #2f3f52;
+	--font-color: #e5eaf0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    display: flex;
+	font-family: system-ui;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#site-main {
+    flex: 1 0 auto;
+}
+
+#site-footer {
+    flex: 0 0 auto;
+}
+
+.post footer {
+	position: relative;
+	margin-bottom: 3em;
+}
+
+.post footer:after {
+	background-color: var(--primary-color);
+	content: "";
+	display: block;
+	height: 2em;
+	position: absolute;
+	width: 100%;
+}
+
+.post footer dl {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+	margin-bottom: -1.2em;
+}
+
+.post footer dd {
+	margin: 0;
+	padding: 0;
+	width: 4em;
+	transform: rotate(-50deg);
+}
+
+.post footer dl a {
+	background-color: #48627d;
+	color: inherit;
+	display: inline-block;
+	overflow: hidden;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	transition: max-width .2s cubic-bezier(.4,0,.2,1);
+	max-width: 1em;
+	white-space: nowrap;
+}
+
+.post footer dl a:before {
+	content: "✨";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 1;
+	text-decoration: inherit;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+}
+
+.post footer dl a:hover,
+.post footer dl a:focus {
+	max-width: 50vh;
+}
