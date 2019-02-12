@@ -1,0 +1,73 @@
+{
+  "default": true,
+
+  "comment": "MD001 Heading levels only increment by one level at a time.",
+  "heading-increment": true,
+
+  "comment": "MD002 First heading should be a level 2 heading.",
+  "first-heading-h1": { "level": 2 },
+
+  "comment": "MD003 Heading style: start with hashes.",
+  "header-style": { "style": "atx" },
+
+  "comment": "MD004 Unordered list style: dash.",
+  "ul-style": { "style": "dash" },
+
+  "comment": "MD005 Consistent indentation for list items at the same level.",
+  "list-indent": true,
+
+  "comment": "MD006 Lists do not need to start at the beginning of the line.",
+  "ul-start-left": false,
+
+  "comment": "MD007 Unordered list indentation: 4 spaces.",
+  "ul-indent": { "indent": 4 },
+
+  "comment": "MD009 Two trailing spaces create a line break.",
+  "no-trailing-spaces": {
+    "br_spaces": 2,
+    "comment": "Empty lines inside list items should not be indented.",
+    "list_item_empty_lines": false
+  },
+
+  "comment": "MD010 No hard tabs, not even in code blocks.",
+  "no-hard-tabs": { "code_blocks": true },
+
+  "comment": "MD011 Catch reversed link syntax.",
+  "no-reversed-links": true,
+
+  "comment": "MD013 No maximum line length.",
+  "line-length": false,
+
+  "comment": "MD014 No ($) before commands without showing output.",
+  "commands-show-output": true,
+
+  "comment": "MD024 No multiple headings with the same content.",
+  "no-duplicate-header": true,
+
+  "comment": "MD026 Whitelist trailing punctuation in heading.",
+  "no-trailing-punctuation": { "punctuation": ".,:!?" },
+
+  "comment": "MD028 Allow blank line inside blockquote.",
+  "no-blanks-blockquote": false,
+
+  "comment": "MD033 Allow inline HTML.",
+  "no-inline-html": false,
+
+  "comment": "MD034 No bare URLs",
+  "no-bare-urls": true,
+
+  "comment": "MD036 Allow emphasized text on its own line.",
+  "no-emphasis-as-header": false,
+
+  "comment": "MD040 Fenced code blocks must have a language specified.",
+  "fenced-code-language": true,
+
+  "comment": "MD041 First line in file should be a top level header.",
+  "first-line-h1": {
+    "level": 2,
+    "front_matter_title": "^\\s*title:"
+  },
+
+  "comment": "MD044 Capitalize whatever you want.",
+  "proper-names": false
+}
