@@ -20,6 +20,7 @@
   ],
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "cssnano": "^4.1.8",
     "he": "^1.2.0",
     "html-minifier": "^3.5.21",
@@ -30,6 +31,7 @@
     "markdown-it-footnote": "^3.0.1",
     "markdownlint-cli": "^0.13.0",
     "postcss-cli": "^6.1.1",
+    "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.5.0",
     "rimraf": "^2.6.3",
     "stylelint": "^9.10.1",

@@ -1,0 +1,29 @@
+:root {
+	--primary-color: #1b2535;
+	--primary-ligher: #2f3f52;
+	--font-color: #e5eaf0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    display: flex;
+	font-family: system-ui;
+	font-size: 21px;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#site-main {
+    flex: 1 0 auto;
+}
+
+#site-footer {
+    flex: 0 0 auto;
+}

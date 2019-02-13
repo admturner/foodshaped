@@ -5,6 +5,7 @@ const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItFootnote = require('markdown-it-footnote');
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 const htmlminConfig = {
 	caseSensitive: true,
@@ -39,6 +40,10 @@ const mdIt = markdownIt(markdownItConfig)
 	.use(markdownItAnchor, markdownItAnchorConfig);
 
 module.exports = (eleventyConfig) => {
+	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
+		templateFormats: "md"
+	});
+
 	eleventyConfig.addFilter('htmlDate', (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
 	});

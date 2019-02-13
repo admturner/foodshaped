@@ -1,0 +1,142 @@
+/**
+ * Darcula Prismjs theme
+ *
+ * Adapted from the Dracula theme for Atom.
+ * @see https://github.com/dracula/atom
+ */
+
+:root {
+	--code-background-color: #282a36; /* Very dark blue */
+	--code-foreground-color: #f8f8f2; /* Very light gray */
+	--code-selection-color: hsla(220, 100%, 80%, .08); /* Lighter bg color */
+	--code-comment-color: #cfcfc2; /* Tan */
+	--code-property-color: #8be9fd; /* Cyan */
+	--code-function-color: #50fa7b; /* Green */
+	--code-misc-color: #ffb86c; /* Orange */
+	--code-keyword-color: #ff79c6; /* Pink */
+	--code-entity-color: #bd93f9; /* Purple */
+	--code-warn-color: #ff5555; /* Red */
+	--code-string-color: #f1fa8c; /* Yellow */
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: var(--code-background-color);
+	color: var(--code-foreground-color);
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    color: inherit;
+    background: var(--code-selection-color);
+}
+
+.token.bold {
+	font-weight: 700;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata,
+.token.punctuation.blockquote {
+	color: var(--code-comment-color);
+}
+
+.token.keyword,
+.token.delimiter,
+.token.boolean,
+.token.important,
+.token.atrule,
+.token.operator,
+.token.tag,
+.token.builtin {
+	color: var(--code-keyword-color);
+}
+
+.token.function,
+.token.attr-name,
+.token.inserted {
+    color: var(--code-function-color);
+}
+
+.token.entity,
+.token.number,
+.token.symbol {
+    color: var(--code-entity-color);
+}
+
+.token.property,
+.token.constant,
+.token.variable,
+.token.script,
+.token.url {
+    color: var(--code-property-color);
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.attr-value .punctuation {
+	color: var(--code-string-color);
+}
+
+.token.deleted {
+    color: var(--code-warn-color);
+}
+
+.token.doctype,
+.token.punctuation,
+.token.attr-value .punctuation:first-child {
+	color: var(--code-foreground-color);
+}
+
+code.language-markdown .important.title,
+code.language-markdown .important.title .punctuation {
+	color: var(--code-entity-color);
+	font-weight: 700;
+}
+
+code.language-markdown .token.blockquote {
+	margin-left: 1em;
+}
+
+code.language-markdown .token.code.keyword {
+	color: var(--code-foreground-color);
+}
+
+code.language-css .highlight-line {
+	color: var(--code-entity-color);
+}
+
+code.language-css .token.selector {
+	color: var(--code-function-color);
+}
+
+code.language-css .token.id,
+code.language-css .token.selector > .token.class,
+code.language-css .token.selector > .token.attribute,
+code.language-css .token.selector > .token.pseudo-class,
+code.language-css .token.selector > .token.pseudo-element {
+	color: var(--code-string-color);
+}
