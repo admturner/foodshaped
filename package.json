@@ -30,6 +30,7 @@
     "markdown-it-attrs": "^2.3.2",
     "markdown-it-footnote": "^3.0.1",
     "markdownlint-cli": "^0.13.0",
+    "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.5.0",
@@ -41,12 +42,12 @@
     "lint:css": "stylelint \"src/_css/**/*.css\"",
     "lint:md": "markdownlint src/**/*.md",
     "eleventy": "eleventy",
+    "serve": "eleventy --serve",
     "clean": "rimraf dist",
     "style": "postcss src/_css/main.css --output dist/_css/main.css",
-    "build": "npm run clean && npm run test && npm run style && npm run eleventy",
-    "watch": "npm run build && npx eleventy --watch",
-    "start": "npm run build && npx eleventy --serve",
+    "build": "run-s clean test style eleventy",
+    "start": "run-s clean test style serve",
     "debug": "DEBUG=* npx eleventy",
-    "test": "npm run lint:css && npm run lint:md"
+    "test": "run-p lint:*"
   }
 }
