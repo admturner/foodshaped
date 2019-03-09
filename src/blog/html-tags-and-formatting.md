@@ -13,17 +13,17 @@ description: A variety of standard HTML tags.
 
 ## Headings
 
-# Header one
+# Heading one
 
-## Header two
+## Heading two
 
-### Header three
+### Heading three
 
-#### Header four
+#### Heading four
 
-##### Header five
+##### Heading five
 
-###### Header six
+###### Heading six
 
 ## Blockquotes
 
@@ -31,7 +31,7 @@ Single line blockquote:
 
 > Stay hungry. Stay foolish.
 
-Multi line blockquote with a cite reference:
+Multi line blockquote with a cite reference:  
 
 <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
 The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block Quotation Element</em>) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see <a href="https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote#Notes">Notes</a> for how to change it). A URL for the source of the quotation may be given using the <strong>cite</strong> attribute, while a text representation of the source can be given using the <a title="The HTML Citation Element &lt;cite&gt; represents a reference to a creative work. It must include the title of a work or a URL reference, which may be in an abbreviated form according to the conventions used for the addition of citation metadata." href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite"><code>&lt;cite&gt;</code></a> element.</blockquote>
@@ -60,33 +60,33 @@ The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML B
 ## Definition Lists
 
 <dl>
-	<dt>Definition List Title</dt>
-	<dd>Definition list division.</dd>
+    <dt>Definition List Title</dt>
+    <dd>Definition list division.</dd>
 </dl>
 
 ## Unordered Lists (Nested)
 
-* List item one
+- List item one
     - List item one
-        + List item one
-        + List item two
-        + List item three
-        + List item four
+        - List item one
+        - List item two
+        - List item three
+        - List item four
     - List item two
     - List item three
     - List item four
-* List item two
-* List item three
-* List item four
+- List item two
+- List item three
+- List item four
 
 ## Ordered List (Nested)
 
-8. List item one (start at 8)
+1. List item one
     1. List item one
-        4. List item one (reversed attribute)
-        3. List item two
-        2. List item three
-    	1. List item four
+        1. List item one (reversed attribute)
+        1. List item two
+        1. List item three
+        1. List item four
     1. List item two
     1. List item three
     1. List item four
@@ -96,11 +96,13 @@ The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML B
 
 ## HTML Tags
 
-These supported tags come from the WordPress.com code <a href="https://en.support.wordpress.com/code/">FAQ</a>.
+These supported tags come from the WordPress.com code [FAQ](https://en.support.wordpress.com/code/).
 
 ### Address Tag
 
-<address>1 Infinite Loop<br />Cupertino, CA 95014<br />United States</address>
+<address>1 Infinite Loop  
+Cupertino, CA 95014  
+United States</address>
 
 ### Anchor Tag (aka. Link)
 
@@ -118,14 +120,14 @@ The abbreviation <abbr title="Seriously">srsly</abbr> stands for "seriously".
 
 This tag styles blocks of code.
 
-```
+```css
 .post-title {
-	margin: 0 0 5px;
-	font-weight: bold;
-	font-size: 38px;
-	line-height: 1.2;
+  margin: 0 0 5px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.2;
 
-	/* and here's a line of some really, really, really, really long text, just to see how it is handled and to find out how it overflows */
+  /* and here's a line of some really, really, really, really long text, just to see how it is handled and to find out how it overflows */
 }
 ```
 
@@ -137,11 +139,11 @@ This ~~tag will let~~ you <del cite="deleted it">strike out text</del>, but this
 
 ### Emphasize Tag
 
-The emphasize tag should *italicize* text.
+The emphasize tag should *italicize this* text.
 
 ### Horizontal Rule Tag
 
-<hr>
+---
 
 This sentence is following a `<hr>` tag.
 
