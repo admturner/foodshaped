@@ -1,0 +1,16 @@
+---
+layout: "layouts/page.njk"
+title: 'Blog'
+author: 'Adam Turner'
+permalink: /blog/
+---
+
+<h2>Posts Archive</h2>
+
+{%- for post in collections.posts %}
+
+<ul>
+    <li>{{ post.data.title }}</li>
+</ul>
+
+{%- endfor %}
