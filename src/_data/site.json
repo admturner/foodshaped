@@ -1,6 +1,6 @@
 {
   "title": "Eternal Pastry",
-  "url": "/",
+  "url": "https://eternalpastry.com/",
   "author": {
     "name": "Adam Turner"
   },
@@ -11,10 +11,10 @@
   ],
   "feed": {
     "subtitle": "The Eternal Pastry food place",
-    "filename": "blog.atom",
-    "path": "/blog.atom",
-    "url": "",
-    "id": "/"
+    "filename": "feed.atom",
+    "path": "/feed.atom",
+    "url": "https://eternalpastry.com/feed.atom",
+    "id": "https://eternalpastry.com/"
   },
   "charset": "utf-8"
 }
