@@ -5,6 +5,7 @@ const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItFootnote = require('markdown-it-footnote');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 const htmlminConfig = {
@@ -40,6 +41,7 @@ const mdIt = markdownIt(markdownItConfig)
 	.use(markdownItAnchor, markdownItAnchorConfig);
 
 module.exports = (eleventyConfig) => {
+	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		templateFormats: "md"
 	});
@@ -60,6 +62,22 @@ module.exports = (eleventyConfig) => {
 		return he.decode(string);
 	});
 
+	eleventyConfig.addFilter('slice', (array, n) => {
+		// Returns from the first to the nth item in an array.
+		return array.slice(0, n);
+	});
+
+	eleventyConfig.addCollection("posts", (collection) => {
+		// Could instead provide an array of globs, to catch everything.
+		// return collection.getFilteredByGlob([
+		// 	"src/blog/*.md",
+		// 	"src/other/*.md",
+		// 	"src/other/**/*.md", // would include subdirs as well
+		// ]);
+		return collection.getFilteredByGlob("src/blog/*.md")
+			.sort((a, b) => b.date - a.date);
+	});
+
 	eleventyConfig.setLibrary('md', mdIt);
 
 	eleventyConfig.addPassthroughCopy('src/_images');
@@ -73,7 +91,7 @@ module.exports = (eleventyConfig) => {
 	});
 
 	return {
-		markdownTemplateEngine: 'liquid',
+		markdownTemplateEngine: 'njk',
 		htmlTemplateEngine: 'njk',
 		dataTemplateEngine: 'njk',
 		passthroughFileCopy: true,
