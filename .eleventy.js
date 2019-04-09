@@ -85,6 +85,10 @@ module.exports = (eleventyConfig) => {
 	    return `<div class="instructions">${html}</div>`;
 	});
 
+	eleventyConfig.addPairedShortcode('aside', (content, style, el = 'aside') => {
+	    return `<${el} class="${style}">${content}</${el}>`;
+	});
+
 	eleventyConfig.addFilter('htmlDate', (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
 	});
