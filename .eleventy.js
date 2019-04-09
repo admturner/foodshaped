@@ -46,6 +46,45 @@ module.exports = (eleventyConfig) => {
 		templateFormats: "md"
 	});
 
+	eleventyConfig.addShortcode('listIngredients', (ingredients) => {
+	    let list = "";
+	    let prep,
+	        amount,
+	        type,
+	        extra;
+
+	    ingredients.forEach( i => {
+	        amount = ( i.amount ) ? i.amount : '';
+	        type   = ( i.type ) ? ` ${i.type}` : '';
+	        prep   = ( i.prep ) ? `, ${i.prep}` : '';
+	        extra  = ( i.extra ) ? `<span>${i.extra}</span>` : '';
+	        list  += `<li>${amount}${type}${prep}${extra}</li>`
+	    });
+
+	    return `<ul class="ingredients">${list}</ul>`;
+	});
+
+	eleventyConfig.addShortcode('listInstructions', (instructions) => {
+	    let html = "";
+
+	    if ( 1 < instructions.length ) {
+	        instructions.forEach( instruction => {
+	            html += `<h3>${instruction.section}</h3>`;
+	            for ( let step of instruction.steps ) {
+	                html += `<p>${step}</p>`;
+	            }
+	        });
+	    } else {
+	        instructions.forEach( instruction => {
+	            for ( let step of instruction.steps ) {
+	                html += `<p>${step}</p>`;
+	            }
+	        });
+	    }
+
+	    return `<div class="instructions">${html}</div>`;
+	});
+
 	eleventyConfig.addFilter('htmlDate', (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
 	});
