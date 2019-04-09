@@ -78,6 +78,11 @@ module.exports = (eleventyConfig) => {
 			.sort((a, b) => b.date - a.date);
 	});
 
+	eleventyConfig.addCollection("recipes", (collection) => {
+		return collection.getFilteredByGlob("src/recipes/*.md")
+			.sort((a, b) => b.date - a.date);
+	});
+
 	eleventyConfig.setLibrary('md', mdIt);
 
 	eleventyConfig.addPassthroughCopy('src/_images');
