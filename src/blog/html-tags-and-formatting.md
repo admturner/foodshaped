@@ -11,9 +11,7 @@ tags:
 description: A variety of standard HTML tags.
 ---
 
-## Headings
-
-# Heading one
+## Allowed Headings
 
 ## Heading two
 
