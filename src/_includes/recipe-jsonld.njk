@@ -1,0 +1,74 @@
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/",
+		"@type": "Recipe",
+		"name": "{{ title | markdown | safe }}",
+		"image": [
+			"https://path.to.image/feature_1x1.jpg",
+			"https://path.to.image/feature_4x3.jpg",
+			"https://path.to.image/feature_16x9.jpg"
+		],
+		"author": {
+			"@type": "Person",
+			"name": "{{ author | markdown | safe }}"
+		},
+		"datePublished": "{{ date | htmlDate }}",
+		{% if description -%}
+			"description": "{{ description | markdown | safe }}",
+		{% endif -%}
+		{% if tags -%}
+			"keywords": "{{ tags | join(', ') | decodeHtmlEntities }}",
+		{% endif -%}
+		{% if categories -%}
+			"recipeCategory": "{{ categories | join(', ') | decodeHtmlEntities }}",
+		{% endif -%}
+		{% if regions -%}
+			"recipeCuisine": "{{ regions | join(', ') | decodeHtmlEntities }}",
+		{% endif -%}
+		{% if produces -%}
+			"recipeYield": "{{ produces }}",
+		{% endif -%}
+		"recipeIngredient": [
+			{% for ingredient in ingredients -%}
+				"{{ ingredient.amount }} {{ ingredient.type }}{% if ingredient.prep %}, {{ ingredient.prep }}{% endif %}"
+				{%- if not loop.last -%}
+					,
+				{%- endif %}
+			{% endfor -%}
+		],
+		"recipeInstructions": [
+			{% for group in instructions -%}
+				{% if 1 < loop.length -%}
+					{
+						"@type": "HowToSection",
+						"name": "{{ group.section }}",
+						"itemListElement": [
+							{% for step in group.steps -%}
+								{
+									"@type": "HowToStep",
+									"text": "{{ step | decodeHtmlEntities }}"
+								}
+								{%- if not loop.last -%}
+									,
+								{%- endif %}
+							{% endfor -%}
+						]
+					}
+					{%- if not loop.last -%}
+						,
+					{%- endif %}
+				{% else -%}
+					{% for step in group.steps -%}
+						{
+							"@type": "HowToStep",
+							"text": "{{ step | decodeHtmlEntities }}"
+						}
+						{%- if not loop.last -%}
+							,
+						{%- endif %}
+					{% endfor -%}
+				{% endif -%}
+			{% endfor -%}
+		]
+	}
+</script>
