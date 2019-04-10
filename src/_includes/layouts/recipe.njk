@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+jsonld: true
+---
+<article class="recipe">
+	<header>
+		<h1 class="recipe-title">{{ title | markdown | safe }}</h1>
+		<p class="meta">
+			<time datetime="{{ date | htmlDate }}">{{ date | readableDate }}</time>
+			<span class="authors">
+				{% if avatars %}
+					<img src="/_images/avatars/{{ avatar }}.jpg" srcset="/_images/avatars/{{ avatar }}@2x.jpg 2x" alt="" width="48" height="48" lazyload="on">
+				{% endif %}
+				By {{ author | markdown | safe }}
+			</span>
+		</p>
+	</header>
+	<div class="article-content">
+
+		{% if description %}
+			<p>{{ description | markdown | safe }}</p>
+		{% endif %}
+
+		{% if produces %}
+			<p>Produces {{ produces | markdown | safe }}</p>
+		{% endif %}
+
+		{{ content | safe }}
+
+	</div>
+	<footer>
+		{% if categories %}
+			<dl class="meta categories">
+				<dt>Category</dt>
+				{% for category in categories %}
+					<dd><a href="/recipes/categories/{{ category | slug }}/">{{ category | capitalize }}</a></dd>
+				{% endfor %}
+			</dl>
+		{% endif %}
+
+		{% if tags %}
+			<dl class="meta tags">
+				<dt>Tagged</dt>
+				{% for tag in tags %}
+					<dd><a href="/recipes/tags/{{ tag | slug }}/">{{ tag | capitalize }}</a></dd>
+				{% endfor %}
+				{% for region in regions %}
+					<dd><a href="/recipes/regions/{{ region | slug }}/">{{ region | title }}</a></dd>
+				{% endfor %}
+			</dl>
+		{% endif %}
+	</footer>
+</article>
