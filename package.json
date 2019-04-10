@@ -1,6 +1,7 @@
 {
   "name": "eternalpastry",
   "version": "0.1.0",
+  "private": true,
   "description": "A cooking and baking website built with Eleventy",
   "license": "GPL-3.0+",
   "repository": {
