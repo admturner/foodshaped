@@ -41,6 +41,7 @@
     "stylelint-config-recommended": "^2.1.0"
   },
   "scripts": {
+    "new": "npx ./bin/new-recipe.js",
     "lint:css": "stylelint \"src/_css/**/*.css\"",
     "lint:md": "markdownlint src/**/*.md",
     "eleventy": "eleventy",
