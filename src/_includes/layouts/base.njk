@@ -17,6 +17,9 @@
 		<link rel="stylesheet" href="/_css/main.css?ver={{ pkg.version }}">
 		<link rel="alternate" href="{{ site.feed.path | url }}" type="application/atom.xml" title="{{ site.title }} feed">
 		<script>document.documentElement.className+=' js'</script>
+		{% if true === jsonld %}
+		    {% include "recipe-jsonld.njk" %}
+		{% endif %}
 	</head>
 	<body>
 		<header id="site-header">
