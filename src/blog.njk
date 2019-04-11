@@ -10,7 +10,7 @@ permalink: /blog/
 {%- for post in collections.posts %}
 
 <ul>
-    <li>{{ post.data.title }}</li>
+    <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 </ul>
 
 {%- endfor %}
