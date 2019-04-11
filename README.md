@@ -18,7 +18,7 @@ Unless otherwise indicated, all Content -- including but not limited to text, pi
 
 ### Content (Text, Pictures, Graphics, etc.)
 
-A Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0) with CC Plus (CC+) License. The CC+ waives the noncommertial and/or sharealike requirements with specific written permission from the copyright holder.
+A Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0) with CC Plus (CC+) License. The CC+ waives the noncommercial and/or share alike requirements with specific written permission from the copyright holder.
 
 ### Software
 
