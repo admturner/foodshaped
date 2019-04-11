@@ -1,0 +1,16 @@
+---
+layout: "layouts/page.njk"
+title: 'Food'
+author: 'Adam Turner'
+permalink: /recipes/
+---
+
+<h2>Posts Archive</h2>
+
+{%- for recipe in collections.recipes %}
+
+<ul>
+    <li><a href="{{ recipe.url | url }}">{{ recipe.data.title }}</a></li>
+</ul>
+
+{%- endfor %}
