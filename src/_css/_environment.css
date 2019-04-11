@@ -20,6 +20,10 @@ body {
     margin: 0 auto;
 }
 
+a {
+	color: var(--code-property-color);
+}
+
 #site-main {
     flex: 1 0 auto;
 }
