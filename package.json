@@ -49,7 +49,7 @@
     "clean": "rimraf dist",
     "style": "postcss src/_css/main.css --output dist/_css/main.css",
     "build": "run-s clean test style eleventy",
-    "start": "run-s clean test style serve",
+    "start": "ELEVENTY_ENV=development run-s clean test style serve",
     "debug": "DEBUG=* npx eleventy",
     "test": "run-p lint:*"
   }
