@@ -1,0 +1,821 @@
+{
+  "ingredients": [
+    {
+      "name": "All-purpose wheat flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 120 }
+    }, {
+      "name": "Bread flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 120 }
+    }, {
+      "name": "Pastry flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 106 }
+    }, {
+      "name": "Whole pastry flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 96 }
+    }, {
+      "name": "Whole wheat flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 113 }
+    }, {
+      "name": "Medium rye flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 103 }
+    }, {
+      "name": "Pumpernickel",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 106 }
+    }, {
+      "name": "Almond flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 96 }
+    }, {
+      "name": "Barley flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 85 }
+    }, {
+      "name": "Buckwheat flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 120 }
+    }, {
+      "name": "Chickpea flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 85 }
+    }, {
+      "name": "Oat flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 92 }
+    }, {
+      "name": "Potato flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 184 }
+    }, {
+      "name": "Quinoa flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 110 }
+    }, {
+      "name": "Rice flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 142 }
+    }, {
+      "name": "Semolina flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 163 }
+    }, {
+      "name": "Sorghum flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 138 }
+    }, {
+      "name": "Spelt flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 99 }
+    }, {
+      "name": "Teff flour",
+			"type": "flour",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 135 }
+    }, {
+      "name": "Tapioca starch",
+			"type": "starch",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 113 }
+    }, {
+      "name": "Potato starch",
+			"type": "starch",
+      "volume": { "measure": "cups", "amount": 1 },
+      "weight": { "measure": "grams", "amount": 152 }
+    }, {
+    	"name": "Almonds (sliced)",
+			"type": "nuts, seeds, and legumes",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 86 }
+    }, {
+    	"name": "Almonds (slivered)",
+			"type": "nuts, seeds, and legumes",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 114 }
+    }, {
+    	"name": "Almonds, whole (unblanched)",
+			"type": "nuts, seeds, and legumes",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Almond paste (packed)",
+			"type": "nuts, seeds, and legumes",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 259 }
+    }, {
+    	"name": "Apples (dried, diced)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 85 }
+    }, {
+    	"name": "Apples (peeled, sliced)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Apricots (dried, diced)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 128 }
+    }, {
+    	"name": "Baking powder",
+			"type": "leavening agent",
+    	"volume": { "measure": "teaspoons", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 4 }
+    }, {
+    	"name": "Baking soda",
+			"type": "leavening agent",
+    	"volume": { "measure": "teaspoons", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 6 }
+    }, {
+    	"name": "Bananas (mashed)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Barley (cooked)",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 215 }
+    }, {
+    	"name": "Barley flakes",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 92 }
+    }, {
+    	"name": "Barley, pearled",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 213 }
+    }, {
+    	"name": "Berries (frozen)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Blueberries (dried)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 156 }
+    }, {
+    	"name": "Blueberries (fresh)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Bread crumbs (dried)",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 112 }
+    }, {
+    	"name": "Bread crumbs, Japanese Panko",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 50 }
+    }, {
+    	"name": "Bread crumbs (fresh)",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 42 }
+    }, {
+    	"name": "Buckwheat, whole (kasha)",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Bulgur",
+			"type": "grains",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 152 }
+    }, {
+    	"name": "Butter",
+			"type": "dairy",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 226 }
+    }, {
+    	"name": "Buttermilk, yogurt, sour cream",
+			"type": "dairy",
+    	"volume": { "measure": "tablespoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 28 }
+    }, {
+    	"name": "Candied Peel",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Caraway seeds",
+			"type": "nuts, seeds, and legumes",
+    	"volume": { "measure": "tablespoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 18 }
+    }, {
+    	"name": "Cashews (whole)",
+			"type": "nuts, seeds, and legumes",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Carrots (grated)",
+			"type": "vegetables",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 99 }
+    }, {
+    	"name": "Carrots (cooked and puréed)",
+			"type": "vegetables",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 256 }
+    }, {
+    	"name": "Carrots (diced)",
+			"type": "vegetables",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Celery (diced)",
+			"type": "vegetables",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Cheddar, jack, mozzarella, Swiss (grated)",
+			"type": "cheese",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Feta",
+			"type": "cheese",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Ricotta",
+			"type": "cheese",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Parmesan (grated)",
+			"type": "cheese",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 100 }
+    }, {
+    	"name": "Cherries (dried)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Cherries (candied)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 200 }
+    }, {
+    	"name": "Cherries (frozen)",
+			"type": "fruit",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Chives (fresh)",
+			"type": "vegetables",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 42 }
+    }, {
+    	"name": "Chocolate chips",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Cocoa, unsweetened",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 85 }
+    }, {
+    	"name": "Coconut, sweetened (shredded)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 85 }
+    }, {
+    	"name": "Coconut, unsweetened (shredded)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Coconut, unsweetened (large flakes)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 60 }
+    }, {
+    	"name": "Corn (popped)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 5.25 }
+    }, {
+    	"name": "Cornmeal, whole",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 138 }
+    }, {
+    	"name": "Corn syrup",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 312 }
+    }, {
+    	"name": "Cornstarch",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 112 }
+    }, {
+    	"name": "Cranberries (dried)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 114 }
+    }, {
+    	"name": "Cranberries (fresh or frozen)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 99 }
+    }, {
+    	"name": "Cream or half &amp; half",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Cream cheese",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Currants",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Dates (chopped)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 149 }
+    }, {
+    	"name": "Egg white (fresh)",
+			"type": "",
+    	"volume": { "measure": "each", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 35 }
+    }, {
+    	"name": "Egg whites (dried)",
+			"type": "",
+    	"volume": { "measure": "tablespoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 11 }
+    }, {
+    	"name": "Egg yolk (fresh)",
+			"type": "",
+    	"volume": { "measure": "each", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 14 }
+    }, {
+    	"name": "Espresso powder",
+			"type": "",
+    	"volume": { "measure": "tablespoons", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 7 }
+    }, {
+    	"name": "Flaxseed",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 140 }
+    }, {
+    	"name": "Flax meal",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 100 }
+    }, {
+    	"name": "Figs (dried, chopped)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 149 }
+    }, {
+    	"name": "Garlic head (skin on)",
+			"type": "",
+    	"volume": { "measure": "each", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Garlic (minced)",
+			"type": "",
+    	"volume": { "measure": "tablespoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 28 }
+    }, {
+    	"name": "Garlic (peeled and sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 149 }
+    }, {
+    	"name": "Ginger (crystallized)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 184 }
+    }, {
+    	"name": "Ginger (fresh, sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 228 }
+    }, {
+    	"name": "Graham crackers (crushed)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Granola",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Hazelnuts (whole)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Hazelnut spread",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 320 }
+    }, {
+    	"name": "Honey",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 340 }
+    }, {
+    	"name": "Jam or preserves",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 340 }
+    }, {
+    	"name": "Lard",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 226 }
+    }, {
+    	"name": "Leeks (diced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 92 }
+    }, {
+    	"name": "Macadamia nuts (whole)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 149 }
+    }, {
+    	"name": "Malted milk powder",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 140 }
+    }, {
+    	"name": "Malt syrup",
+			"type": "",
+    	"volume": { "measure": "tablespoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 43 }
+    }, {
+    	"name": "Malted Wheat Flakes",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 128 }
+    }, {
+    	"name": "Maple sugar",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 156 }
+    }, {
+    	"name": "Maple syrup",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 312 }
+    }, {
+    	"name": "Marshmallow Fluff®",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 128 }
+    }, {
+    	"name": "Marshmallows (mini)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 43 }
+    }, {
+    	"name": "Mayonnaise",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 226 }
+    }, {
+    	"name": "Milk, evaporated",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 256 }
+    }, {
+    	"name": "Milk, 1%",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Milk, store bought nonfat dry",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 84 }
+    }, {
+    	"name": "Milk, sweetened condensed",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 312 }
+    }, {
+    	"name": "Millet (whole)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 206 }
+    }, {
+    	"name": "Molasses",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 340 }
+    }, {
+    	"name": "Mushrooms (sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 78 }
+    }, {
+    	"name": "Oat bran",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 106 }
+    }, {
+    	"name": "Oats, traditional rolled or thick flakes",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 99 }
+    }, {
+    	"name": "Oats, quick cooking",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 89 }
+    }, {
+    	"name": "Oats, steel cut (raw)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 198 }
+    }, {
+    	"name": "Oats, steel cut (cooked)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 255 }
+    }, {
+    	"name": "Oil, vegetable",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 198 }
+    }, {
+    	"name": "Olives (sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Onions, fresh (diced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Peaches (peeled and diced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Peanut butter",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 270 }
+    }, {
+    	"name": "Peanuts (whole, shelled)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Pears (peeled and diced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 163 }
+    }, {
+    	"name": "Pecans (diced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Bell pepper",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Pineapple, dried",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Pineapple (diced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Pine nuts",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Pistachio nuts",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 120 }
+    }, {
+    	"name": "Poppy seeds",
+			"type": "",
+    	"volume": { "measure": "tablespoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 18 }
+    }, {
+    	"name": "Polenta (coarse ground cornmeal)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 163 }
+    }, {
+    	"name": "Potatoes (mashed)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 213 }
+    }, {
+    	"name": "Pumpkin (canned)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Quinoa (whole)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 177 }
+    }, {
+    	"name": "Quinoa (cooked)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 184 }
+    }, {
+    	"name": "Raisins",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 149 }
+    }, {
+    	"name": "Raspberries (fresh)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 120 }
+    }, {
+    	"name": "Rhubarb (fresh, medium dice)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 120 }
+    }, {
+    	"name": "Rice, brown (cooked)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Rice, long grain (dry)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 198 }
+    }, {
+    	"name": "Rye flakes",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 124 }
+    }, {
+    	"name": "Scallions (sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 64 }
+    }, {
+    	"name": "Sesame seeds",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 142 }
+    }, {
+    	"name": "Shallots (peeled and sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 156 }
+    }, {
+    	"name": "Sour cream",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Strawberries (fresh sliced)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 167 }
+    }, {
+    	"name": "Sugar",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 198 }
+    }, {
+    	"name": "Confectioners sugar (unsifted)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Brown sugar (packed)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 213 }
+    }, {
+    	"name": "Demerara sugar",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 220 }
+    }, {
+    	"name": "Sundried tomatoes (dry pack)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 170 }
+    }, {
+    	"name": "Sunflower seeds",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 140 }
+    }, {
+    	"name": "Tahini",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 256 }
+    }, {
+    	"name": "Vegetable shortening",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 184 }
+    }, {
+    	"name": "Walnuts (whole)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 128 }
+    }, {
+    	"name": "Walnuts (chopped)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 113 }
+    }, {
+    	"name": "Water",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 222 }
+    }, {
+    	"name": "Wheat bran",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 64 }
+    }, {
+    	"name": "Wheat (cracked)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 149 }
+    }, {
+    	"name": "Wheat germ",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 112 }
+    }, {
+    	"name": "Yeast (dry)",
+			"type": "",
+    	"volume": { "measure": "teaspoons", "amount": 2 },
+    	"weight": { "measure": "grams", "amount": 7 }
+    }, {
+    	"name": "Yogurt",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 227 }
+    }, {
+    	"name": "Zucchini (shredded)",
+			"type": "",
+    	"volume": { "measure": "cups", "amount": 1 },
+    	"weight": { "measure": "grams", "amount": 150 }
+    }
+  ],
+  "sources": [
+    {
+      "author": "King Arthur Flour",
+      "url": "https://www.kingarthurflour.com/learn/ingredient-weight-chart.html#ingredients"
+    }
+  ]
+}

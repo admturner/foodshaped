@@ -17,7 +17,7 @@ This document details all notable changes to the Eternal Pastry website. It uses
 ### Removed (for deprecated features removed in this release)
 -->
 
-## 0.2.0 (:construction: 2019-04-11)
+## 0.2.0 (2019-04-13)
 
 ### Added
 
