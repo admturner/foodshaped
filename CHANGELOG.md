@@ -17,6 +17,22 @@ This document details all notable changes to the Eternal Pastry website. It uses
 ### Removed (for deprecated features removed in this release)
 -->
 
+## 0.2.1 (2020-04-11)
+
+### Changed
+
+- :arrow_up: @11ty/eleventy => 0.10.0
+- :arrow_up: @11ty/eleventy-plugin-rss => 1.0.7
+- :arrow_up: @11ty/eleventy-plugin-syntaxhighlight => 3.0.1
+- :arrow_up: luxon => 1.23.0
+- :arrow_up: markdown-it => 10.0.0
+- :arrow_up: markdown-it-attrs => 3.0.2
+- :arrow_up: markdownlint-cli => 0.22.0
+- :arrow_up: postcss-cli => 7.1.0
+- :arrow_up: rimraf => 3.0.2
+- :arrow_up: stylelint => 13.3.2
+- :arrow_up: stylelint-config-recommended => 3.0.0
+
 ## 0.2.0 (2019-04-13)
 
 ### Added
