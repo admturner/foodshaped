@@ -34,7 +34,7 @@ ingredients:
     amount: 3 cloves
     prep: minced
   - type: fresh ginger
-    amount: 1-inch piece
+    amount: 1 inch
     prep: minced
   - type: chard
     amount: 1 1/2 pounds

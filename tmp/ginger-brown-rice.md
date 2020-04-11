@@ -15,7 +15,7 @@ ingredients:
   - type: canola oil
     amount: 1 tablespoon
   - type: fresh ginger
-    amount: 1 1/2 inch segment
+    amount: 1 1/2 inch
     prep: minced
   - type: yellow onion
     amount: 1/2 medium

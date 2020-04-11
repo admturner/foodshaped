@@ -8,6 +8,8 @@ const markdownItFootnote = require('markdown-it-footnote');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
+const unitConv = require('./bin/conversions.js');
+
 const htmlminConfig = {
 	caseSensitive: true,
 	collapseBooleanAttributes: true,
@@ -51,14 +53,16 @@ module.exports = (eleventyConfig) => {
 	    let prep,
 	        amount,
 	        type,
-	        extra;
+	        extra,
+			test;
 
 	    ingredients.forEach( i => {
-	        amount = ( i.amount ) ? i.amount : '';
+			test   = unitConv.test(i.amount);
+	        amount = ( i.amount ) ? unitConv.readableUnit(i.amount) : '';
 	        type   = ( i.type ) ? ` ${i.type}` : '';
 	        prep   = ( i.prep ) ? `, ${i.prep}` : '';
 	        extra  = ( i.extra ) ? `<span>${i.extra}</span>` : '';
-	        list  += `<li>${amount}${type}${prep}${extra}</li>`
+	        list  += `<li data-test="${test}">${amount}${type}${prep}${extra}</li>`
 	    });
 
 	    return `<ul class="ingredients">${list}</ul>`;

@@ -13,13 +13,26 @@ tags:
   - Tags
 ingredients:
   - type: whole wheat flour
+    amount: 1.25 cups
+  - type: active dry yeast
+    amount: 1/4 teaspoon
+  - type: cold water
     amount: 1 cup
-  - type: whatever
-    amount: 1.25 teaspoons
-  - type: another
-    amount: 3 cloves
-  - type: apple sticks
-    amount: 236.5882 grams
+  - type: active dry yeast
+    amount: 1 teaspoon
+  - type: malt extract
+    amount: 1/4 cup
+  - type: white bread flour
+    amount: 6.5 cups
+    extra: Or a mix of white and wheat flour if you prefer.
+  - type: kosher salt
+    amount: 1 tablespoon
+  - type: baking soda
+    amount: 1 tablespoon
+  - type: water
+    amount: 2 quarts
+  - type: Poppy seeds, sesame seeds, coarse salt, or whatever else for topping.
+    extra: Optional.
 instructions:
   - section: 'Make the poolish preferment'
     steps:
@@ -57,6 +70,8 @@ instructions:
 ## Instructions
 
 {% listInstructions instructions %}
+
+375 deg
 
 ## Sources
 

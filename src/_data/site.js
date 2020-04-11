@@ -8,6 +8,7 @@ module.exports = {
     name: 'Adam Turner'
   },
   tagline: [
+	'Color of Bread',
     'What even is pastry, really?',
     'Regular human food.',
     'Use mouth with food.',
