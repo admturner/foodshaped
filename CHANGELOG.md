@@ -1,20 +1,19 @@
-# Changelog: Eternal Pastry
+# Changelog
 
-Author: Adam Turner  
-URI: https://github.com/admturner/eternalpastry/
-
-This document details all notable changes to the Eternal Pastry website. It uses [Semantic Versioning](http://semver.org/).
+This document details all notable changes to the Food Shaped website. It uses [Semantic Versioning](http://semver.org/).
 
 <!--
 ## Major.MinorAddorDeprec.Bugfix (YYYY-MM-DD)
 
-### Todo (for upcoming changes)
-### Security (in case of fixed vulnerabilities)
-### Fixed (for any bug fixes)
-### Changed (for changes in existing functionality)
-### Added (for new features)
-### Deprecated (for once-stable features removed in upcoming releases)
-### Removed (for deprecated features removed in this release)
+### Features
+### Enhancements
+### Bug Fixes
+### Experiments
+### Deprecations
+### Code quality
+### Documentation
+### Build Tooling
+### Project Management
 -->
 
 ## 0.2.1 (2020-04-11)

@@ -1,11 +1,11 @@
 {
-  "name": "eternalpastry",
-  "version": "0.2.1",
+  "name": "foodshaped",
+  "version": "0.2.2",
   "description": "A cooking and baking website built with Eleventy",
   "license": "GPL-3.0+",
   "repository": {
     "type": "git",
-    "url": "https://github.com/admturner/eternalpastry"
+    "url": "https://github.com/admturner/foodshaped"
   },
   "browserslist": [
     "> 1%",
@@ -19,24 +19,24 @@
     "last 2 Edge versions"
   ],
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "cssnano": "^4.1.10",
     "he": "^1.2.0",
     "html-minifier": "^4.0.0",
-    "luxon": "^1.23.0",
-    "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.0.2",
-    "markdown-it-attrs": "^3.0.2",
+    "luxon": "^1.24.1",
+    "markdown-it": "^11.0.0",
+    "markdown-it-anchor": "^5.3.0",
+    "markdown-it-attrs": "^3.0.3",
     "markdown-it-footnote": "^3.0.1",
-    "markdownlint-cli": "^0.22.0",
+    "markdownlint-cli": "^0.23.1",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^7.1.0",
+    "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.6.0",
     "rimraf": "^3.0.2",
-    "stylelint": "^13.3.2",
+    "stylelint": "^13.6.1",
     "stylelint-config-recommended": "^3.0.0"
   },
   "scripts": {

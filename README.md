@@ -1,6 +1,6 @@
-# Eternal Pastry
+# Food Shaped
 
-**Contributors:** Adam Turner <support@adamturner.org>  
+**Contributors:** [Adam Turner](https://adamturner.dev)  
 **Generator:** [Eleventy](https://www.11ty.io/)  
 **Content License:** [CC BY-NC-SA 4.0 +](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 **Software License:** [GPLv3 or later](http://www.gnu.org/licenses/gpl-3.0.html)  
@@ -11,8 +11,8 @@ Food.
 
 ## Copyright
 
-Eternal Pastry  
-Copyright (c) 2019 Adam Turner <support@adamturner.org>
+Food Shaped  
+Copyright (c) 2019 Adam Turner
 
 Unless otherwise indicated, all Content -- including but not limited to text, pictures, graphics, audiovisual material, data, and interactive content -- are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Permissions beyond the scope of this license are defined as follows:
 

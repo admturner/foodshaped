@@ -1,19 +1,18 @@
 const env = process.env.ELEVENTY_ENV || 'production';
-const baseUrl = ( 'production' === env ) ? 'https://eternalpastry.com/' : 'http://localhost:8080/';
+const baseUrl = ('production' === env) ? 'https://foodshaped.com/' : 'http://localhost:8080/';
 
 module.exports = {
-  title: 'Eternal Pastry',
+  title: 'Food Shaped',
   url: baseUrl,
   author: {
     name: 'Adam Turner'
   },
   tagline: [
-    'What even is pastry, really?',
     'Regular human food.',
-    'Use mouth with food.',
+    'Use food with face.',
   ],
   feed: {
-    subtitle: 'The Eternal Pastry food place',
+    subtitle: 'Shaped like food.',
     filename: 'feed.atom',
     path: '/feed.atom',
     url: `${ baseUrl }feed.atom`,
