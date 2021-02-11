@@ -7,13 +7,13 @@ This document details all notable changes to the Food Shaped website. It uses [S
 
 ### Features
 ### Enhancements
-### Bug Fixes
+### Bug fixes
 ### Experiments
 ### Deprecations
 ### Code quality
 ### Documentation
-### Build Tooling
-### Project Management
+### Build tools
+### Project management
 -->
 
 ## 0.2.1 (2020-04-11)
